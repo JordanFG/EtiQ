@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:id="@+id/application">
+
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/communicate">
+        <item
+            android:orderInCategory="1"
+            android:id="@+id/m_etiquette"
+            android:icon="@drawable/ic_spellcheck_black_24dp"
+            android:title="Etiquettés" />
+        <item
+            android:orderInCategory="1"
+            android:id="@+id/m_recommendation"
+            android:icon="@drawable/ic_beenhere_black_24dp"
+            android:title="Recommendation" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/about">
+        <item
+            android:orderInCategory="2"
+            android:id="@+id/a_propos"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="A propos" />
+    </group>
+
+</menu>

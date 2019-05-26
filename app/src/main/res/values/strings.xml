@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">EtiQ</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="s_incrire">S\'inscrire</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">EtiQ</string>
+    <string name="nav_header_subtitle">Etiquettage de messages</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="aide">Aidez-moi</string>
+    <string name="button">Button</string>
+    <string name="message">Messages</string>
+    <string name="ok">Ok</string>
+    <string name="msg_cocher_app">Veuiller cocher aumoins une application</string>
+    <string name="msg_empty_field">Toutes les champs doivent être remplis</string>
+    <string name="a_faire_pas_coche">Coche aumoins une case</string>
+    <string name="msg_case_a_remplir">Une case aumoins doit être remplie</string>
+    <string name="msg_remplir_case">remplir tous les cases</string>
+    <string name="msg_conf_pass">La confirmation du password n\'est pas exacte</string>
+    <string name="conf_pass">Confirmer le password</string>
+    <string name="msg_inf_connexion">Les information de connexion ne sont pas exactes</string>
+    <string name="inf_connexion">veuillez entcrer les bonnes informations ou vous inscrire</string>
+    <string name="deconnexion">Déconnexion</string>
+    <string name="action_settings">Notification Settings</string>
+    <string name="app_label">EtiQ</string>
+    <string name="search_hint">Rechercher des messages</string>
+    <string name="rechercher">Rechercher</string>
+    <string name="search">Search</string>
+    <string name="title_activity_select_app">selectApp</string>
+    <string name="next">Next</string>
+</resources>

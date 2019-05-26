@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg"
+    android:padding="20dp"
+    tools:context=".connection.Inscription">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="278dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/line"
+                android:drawableLeft="@drawable/ic_person_white_24dp"
+                android:hint="Username"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff" />
+
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/line"
+                android:drawableLeft="@drawable/ic_person_white_24dp"
+                android:hint="Email"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:singleLine="true"
+                android:imeOptions="actionNext"/>
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/line"
+                android:drawableLeft="@drawable/ic_lock_white_24dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffff"
+                android:singleLine="true"
+                android:imeOptions="actionNext"/>
+
+
+
+            <EditText
+                android:id="@+id/confpassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/line"
+                android:drawableLeft="@drawable/ic_lock_white_24dp"
+                android:hint="Confirm password"
+                android:inputType="textPassword"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffff"
+                android:singleLine="true"
+                android:imeOptions="actionNext"/>
+
+
+            <Button
+                android:id="@+id/inscrire_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_sing_login"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="@string/s_incrire"
+                android:textAllCaps="false"
+                android:textColor="#ffff" />
+
+            <TextView
+                android:id="@+id/text_help"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                android:text="Avez-vous besoin d'aide ?"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_inscrire"
+                app:layout_constraintVertical_bias="0.25" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
